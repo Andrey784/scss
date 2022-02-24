@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("font/ofont.ru_Montserrat.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("font/20707.otf");
+}
+@font-face {
+    font-family: "InterR";
+    src: url("font/20709.otf");
+}
+.container{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    color:#192252;
+    height: 120px;
+    padding-top: 37px;
+    padding-bottom: 36px;
+}
+.header__logo {
+    font-family:"Montserrat";
+    font-size: 32px;
+}
+.header__list-block {
+}
+.list {
+    list-style: none;
+}
+a.el:active,
+a.el:hover,
+a.el {
+    text-decoration: none;
+    font-size: 16px;
+    color: inherit;
+    font-family: "Inter";
+}
+a.el:not(:last-child){
+    margin-right: 32px;
+}
+.button{
+    height: auto;
+    padding: 14px 16px;
+    border-radius: 4px;
+    background-color:#192252;
+    color: white;
+    font-family: "Inter";
+    font-size: 16px;
+}
+.block1 {
+    margin-top: 80px;
+}
+.block1__text {
+    max-width: 587px;
+    margin-top: 135px;
+}
+.text {
+}
+.text__title {
+    color:#192252;
+    font-family:"Montserrat";
+    margin:0px;
+    margin-bottom: 24px;
+    line-height: 72px;
+}
+.h1{
+    font-size: 48px;
+}
+.text_p {
+    color:#848FAC;
+    font-size: 18px;
+    font-family: "InterR";
+    width: 485px;
+    margin:0px;
+    margin-bottom: 32px;
+    line-height: 27px;
+}
+.block1__image {
+}
+.image {
+}
+.image__1 {
+}
+.image__2 {
+}
+.image__3 {
+}
